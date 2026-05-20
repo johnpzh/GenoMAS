@@ -48,7 +48,8 @@ MODEL_INFO = {
         'gpt-4.1-mini-2025-04-14': {'input_price': 0.4, 'output_price': 1.6},
         'gpt-4o-2024-11-20': {'input_price': 2.5, 'output_price': 10.0},
         'gpt-4o-mini-2024-07-18': {'input_price': 0.15, 'output_price': 0.60},
-        'gpt-5.4-nano-birthright': {'input_price': 0.23, 'output_price': 1.438}
+        'gpt-5.4-nano-birthright': {'input_price': 0.23, 'output_price': 1.438},
+        'gpt-5.4-nano-project': {'input_price': 0.23, 'output_price': 1.438}
     },
     'anthropic': {
         'claude-4.1-opus-20250805': {'input_price': 15.0, 'output_price': 75.0},

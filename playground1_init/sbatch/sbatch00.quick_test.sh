@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --job-name="quick_test_gpt-5.4-nano-birthright"
-######SBATCH --partition=slurm
-#SBATCH --partition=dlv
+#SBATCH --job-name="quick_test_gpt-5.4-nano-project"
+#SBATCH --partition=slurm
+######SBATCH --partition=dlv
 ######SBATCH --exclude=dc[119,077]
 #SBATCH --account=oddite
 #SBATCH -N 1
@@ -84,14 +84,15 @@ export PREV_PWD=$(readlink -f .)
 # Experiment configuration #
 #--------------------------#
 exp_version="test_preprocess"
-model="gpt-5.4-nano-birthright"
+# model="gpt-5.4-nano-birthright"
+model="gpt-5.4-nano-project"
 api_index=1
 data_root="/qfs/projects/oddite/peng599/Data/GenoTEX/input"
 
 #--------------------#
 # Run the experiment #
 #--------------------#
-# log_file="playground1_init/output.exp1.gpt-5.4-nano-birthright.$(date +%Y-%m-%dT%H.%M.%S).log"
+# log_file="playground1_init/output.exp1.gpt-5.4-nano-project.$(date +%Y-%m-%dT%H.%M.%S).log"
 
 TOTAL_TIME_START=$(date +%s.%N)
 

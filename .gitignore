@@ -3,6 +3,8 @@
 /archive/
 /prompts/action_units/generated/
 try.ipynb
+output_*
+output.*
 
 # Below are from templates about Python, Pycharm, and VSCode.
 # See https://plugins.jetbrains.com/plugin/7495--ignore
